@@ -1,8 +1,15 @@
 const express = require("express");
+const cors = require("cors");
+
 require("dotenv").config();
 const app = express();
 const port = 3000;
 const uploadRouter = require("./routes/upload");
+
+const corsOptions = {
+  origin: "*",
+};
+app.use(cors(corsOptions));
 
 app.use(express.json());
 app.use(
