@@ -1,7 +1,7 @@
 {
   "name": "file-upload-api",
-  "version": "1.0.0",
-  "description": "ode.js Express Rest API for Uploading Files",
+  "version": "1.2.0",
+  "description": "Node.js Express Rest API for Uploading Files",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
